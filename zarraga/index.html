@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zárraga Goalkeeper | Guantes de portero mexicanos</title>
+  <meta name="description" content="Zárraga Goalkeeper (ZG): marca mexicana de guantes de portero con látex de calidad profesional. Nuevo modelo Gold. Ahogando la celebración del rival.">
+  <link rel="icon" href="img/logo-zg-t.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800;1,900&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Aviso de borrador: quitar cuando se llenen los datos pendientes -->
+  <div class="borrador" id="borrador">
+    <span>Borrador · Lo que ves <span class="pendiente">así</span> falta confirmarlo con la marca.</span>
+    <button type="button" aria-label="Cerrar aviso" onclick="this.parentElement.remove()">✕</button>
+  </div>
+
+  <!-- 1. ENCABEZADO -->
+  <header class="header">
+    <div class="wrap header__in">
+      <a href="#inicio" class="header__logo" aria-label="Zárraga Goalkeeper, inicio">
+        <img src="img/logo-completo-t.png" alt="Logo ZG Zárraga Goalkeeper" width="365" height="62">
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#guantes">Guantes</a>
+        <a href="#somos-zg">Somos ZG</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <a href="#guantes" class="btn btn--dark btn--sm">Pedir los míos</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero__in">
+        <div class="hero__txt">
+          <p class="eyebrow">Nuevo modelo</p>
+          <h1 class="hero__title">“Gold”</h1>
+          <p class="hero__claim">Ahogando la <span class="brush">celebración</span> del rival.</p>
+          <p class="hero__lead">
+            Guantes de portero hechos en México, con látex de calidad profesional y algo más…
+            Para los que se avientan a todo, hasta en cancha de tierra.
+          </p>
+          <div class="hero__cta">
+            <a href="#guantes" class="btn btn--gold">Quiero mis Gold</a>
+            <a href="https://www.instagram.com/zarragagoalkeeper/" target="_blank" rel="noopener" class="btn btn--ghost">Verlos en Instagram</a>
+          </div>
+          <ul class="chips" aria-label="Lo que traen los Gold">
+            <li>Máximo agarre</li>
+            <li>Comodidad y ajuste</li>
+            <li>Diseño premium</li>
+          </ul>
+        </div>
+        <figure class="hero__img">
+          <img src="img/guantes-gold.png" alt="Guantes ZG modelo Gold en blanco y en negro, ambos con palma dorada" width="538" height="482">
+          <figcaption>Gold Blanco y Gold Negro</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. BENEFICIOS (tomados del flyer oficial) -->
+    <section class="beneficios">
+      <div class="wrap grid3">
+        <article class="beneficio">
+          <span class="beneficio__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3z"/></svg>
+          </span>
+          <h3>Máximo agarre</h3>
+          <p>Palma dorada para que el balón se quede donde tiene que estar: en tus manos, no en la red.</p>
+        </article>
+        <article class="beneficio">
+          <span class="beneficio__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 11V5a1.5 1.5 0 0 1 3 0v5V3.5a1.5 1.5 0 0 1 3 0V10V4.5a1.5 1.5 0 0 1 3 0V11v-3a1.5 1.5 0 0 1 3 0v6a8 8 0 0 1-8 8h-1a7 7 0 0 1-5.6-2.8L2.6 15a1.6 1.6 0 0 1 2.4-2l2 1.6V11z"/></svg>
+          </span>
+          <h3>Comodidad y ajuste</h3>
+          <p>Pensados para que te olvides del guante y solo pienses en el balón (y en el delantero que ya iba a festejar).</p>
+        </article>
+        <article class="beneficio">
+          <span class="beneficio__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9l4-6zm-1.2 6h14.4M9 3l-2 6 5 12 5-12-2-6"/></svg>
+          </span>
+          <h3>Diseño premium</h3>
+          <p>Blanco o negro, siempre con dorado. Porque si vas a tapar, que se vea desde la tribuna.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. CATÁLOGO -->
+    <section class="seccion seccion--dark" id="guantes">
+      <div class="wrap">
+        <header class="seccion__head">
+          <p class="eyebrow eyebrow--gold">Catálogo</p>
+          <h2>Escoge tu par</h2>
+          <p>Cada guante lleva “ZARRAGA” en la muñequera. Lo demás lo pones tú en la cancha.</p>
+        </header>
+
+        <div class="productos">
+          <article class="producto">
+            <div class="producto__img producto__img--foto">
+              <span class="tag">Nuevo</span>
+              <img src="img/guante-blanco.png" alt="Guante ZG Gold Blanco con palma dorada" loading="lazy" width="318" height="482">
+            </div>
+            <div class="producto__body">
+              <h3>ZG Gold Blanco</h3>
+              <p>Blanco con palma y detalles dorados y el logo ZG en el dorso.</p>
+              <dl class="producto__datos">
+                <div><dt>Precio</dt><dd><span class="pendiente">[PRECIO]</span></dd></div>
+                <div><dt>Tallas</dt><dd><span class="pendiente">[TALLAS]</span></dd></div>
+              </dl>
+              <a class="btn btn--gold btn--block" href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener">Lo quiero</a>
+            </div>
+          </article>
+
+          <article class="producto">
+            <div class="producto__img producto__img--foto">
+              <span class="tag">Nuevo</span>
+              <img src="img/guante-negro.png" alt="Guante ZG Gold Negro con palma dorada y logo ZG en relieve" loading="lazy" width="280" height="482">
+            </div>
+            <div class="producto__body">
+              <h3>ZG Gold Negro</h3>
+              <p>Negro con detalles dorados y logo ZG en relieve. El clásico de la casa.</p>
+              <dl class="producto__datos">
+                <div><dt>Precio</dt><dd><span class="pendiente">[PRECIO]</span></dd></div>
+                <div><dt>Tallas</dt><dd><span class="pendiente">[TALLAS]</span></dd></div>
+              </dl>
+              <a class="btn btn--gold btn--block" href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener">Lo quiero</a>
+            </div>
+          </article>
+
+          <article class="producto">
+            <div class="producto__img producto__img--vacia">
+              <span class="pendiente">[FOTO MODELO FLY]</span>
+            </div>
+            <div class="producto__body">
+              <h3>Fly Black</h3>
+              <p>Negro con muñequera larga, para que el guante no se mueva ni en la estirada más larga.</p>
+              <dl class="producto__datos">
+                <div><dt>Precio</dt><dd><span class="pendiente">[PRECIO]</span></dd></div>
+                <div><dt>Tallas</dt><dd><span class="pendiente">[TALLAS]</span></dd></div>
+              </dl>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener">Preguntar</a>
+            </div>
+          </article>
+
+          <article class="producto">
+            <div class="producto__img producto__img--vacia">
+              <span class="pendiente">[FOTO CORTE NEGATIVO]</span>
+            </div>
+            <div class="producto__body">
+              <h3>Corte Negativo</h3>
+              <p>Látex alemán de 4 mm con gel interno. Para el portero que quiere sentir el balón.</p>
+              <dl class="producto__datos">
+                <div><dt>Precio</dt><dd><span class="pendiente">[PRECIO]</span></dd></div>
+                <div><dt>Tallas</dt><dd><span class="pendiente">[TALLAS]</span></dd></div>
+              </dl>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener">Preguntar</a>
+            </div>
+          </article>
+
+          <article class="producto">
+            <div class="producto__img producto__img--vacia">
+              <span class="pendiente">[FOTO AMARILLO / AZUL]</span>
+            </div>
+            <div class="producto__body">
+              <h3>Amarillo con Azul</h3>
+              <p>La variante de color para los que no pasan desapercibidos en el área.</p>
+              <dl class="producto__datos">
+                <div><dt>Precio</dt><dd><span class="pendiente">[PRECIO]</span></dd></div>
+                <div><dt>Tallas</dt><dd><span class="pendiente">[TALLAS]</span></dd></div>
+              </dl>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener">Preguntar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PARA QUIÉN -->
+    <section class="seccion">
+      <div class="wrap">
+        <header class="seccion__head">
+          <p class="eyebrow">Para quién</p>
+          <h2>Para todos los que se paran bajo los tres palos</h2>
+        </header>
+        <div class="grid3">
+          <article class="tile">
+            <span class="tile__num">01</span>
+            <h3>Amateur y llanero</h3>
+            <p>Domingo a las 8 am, cancha de tierra y un delantero que no ha dormido. Ahí es donde se prueba un guante.</p>
+          </article>
+          <article class="tile">
+            <span class="tile__num">02</span>
+            <h3>Juvenil</h3>
+            <p>Para el que entrena toda la semana y quiere llegar a la visoria con todo.</p>
+          </article>
+          <article class="tile">
+            <span class="tile__num">03</span>
+            <h3>Infantil</h3>
+            <p>Para los morritos que apenas empiezan y ya se avientan como si fuera final.
+              <span class="pendiente">[CONFIRMAR TALLAS INFANTILES]</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. HISTORIA -->
+    <section class="seccion seccion--gold" id="somos-zg">
+      <div class="wrap historia">
+        <img class="historia__logo" src="img/logo-zg-t.png" alt="" width="198" height="120">
+        <div>
+          <p class="eyebrow">Los inicios…</p>
+          <h2>Somos ZG</h2>
+          <p>
+            Todo empezó en 2023 en la Ciudad de México. Un 4 de noviembre lo dijimos fuerte:
+            <strong>“Somos ZG, ahogando la celebración del rival.”</strong>
+          </p>
+          <p>
+            Somos una marca mexicana y artesanal de guantes de portero. Hacemos cada par con látex de calidad profesional
+            para los que juegan de verdad: los del llano, los de la liga, los de fuerzas básicas y los que apenas empiezan.
+          </p>
+          <p class="historia__firma">Hecho en CDMX · Desde 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. HUMOR DE PORTERO -->
+    <section class="seccion seccion--dark meme">
+      <div class="wrap meme__in">
+        <p class="meme__top">“Ser arquero es muy fácil…”</p>
+        <p class="meme__body">
+          Solo tienes que parar lo que diez de tu equipo no pudieron, aguantar que te echen la culpa de cada gol
+          y que nadie se acuerde de tus atajadas.
+        </p>
+        <p class="meme__remate">Por eso, mínimo, que tus guantes sí te respalden.</p>
+      </div>
+    </section>
+
+    <!-- 8. CÓMO PEDIR -->
+    <section class="seccion" id="como-pedir">
+      <div class="wrap">
+        <header class="seccion__head">
+          <p class="eyebrow">Cómo pedir</p>
+          <h2>De la pantalla a la portería en 4 pasos</h2>
+        </header>
+        <ol class="pasos">
+          <li>
+            <h3>Escoge modelo y talla</h3>
+            <p>Revisa el catálogo y elige tu par. ¿Dudas con la talla? <span class="pendiente">[LINK A GUÍA DE TALLAS]</span></p>
+          </li>
+          <li>
+            <h3>Mándanos mensaje</h3>
+            <p>Por Instagram, Facebook o TikTok. <span class="pendiente">[WHATSAPP DE VENTAS]</span></p>
+          </li>
+          <li>
+            <h3>Confirmamos tu pedido</h3>
+            <p>Te decimos disponibilidad, forma de pago y envío. <span class="pendiente">[PAGOS Y ENVÍOS]</span></p>
+          </li>
+          <li>
+            <h3>A tapar</h3>
+            <p>Llegan tus ZG y empieza a ahogar celebraciones.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 9. REDES -->
+    <section class="seccion seccion--dark">
+      <div class="wrap">
+        <header class="seccion__head">
+          <p class="eyebrow eyebrow--gold">En cancha</p>
+          <h2>Búscanos como Zárraga Goalkeeper</h2>
+          <p>Videos de porteros reales, atajadas, detalles de los guantes y memes que solo entiende un portero.</p>
+        </header>
+        <div class="redes">
+          <a class="red" href="https://www.instagram.com/zarragagoalkeeper/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+            <span><strong>Instagram</strong>@zarragagoalkeeper</span>
+          </a>
+          <a class="red" href="https://www.tiktok.com/@zarragagoalkeeper" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.5 2.6 2.4 4.5 5 5"/></svg>
+            <span><strong>TikTok</strong>@zarragagoalkeeper</span>
+          </a>
+          <a class="red" href="https://www.facebook.com/zarraga.goalkeeper/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H6.5v3.5H9V21h3.5v-7.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z"/></svg>
+            <span><strong>Facebook</strong>zarraga.goalkeeper</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. PREGUNTAS FRECUENTES -->
+    <section class="seccion" id="preguntas">
+      <div class="wrap wrap--narrow">
+        <header class="seccion__head">
+          <p class="eyebrow">Preguntas</p>
+          <h2>Lo que todo portero pregunta</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>¿De qué están hechos?</summary>
+            <p>Usamos látex de calidad profesional. El modelo de corte negativo lleva látex alemán de 4 mm con gel interno.</p>
+          </details>
+          <details>
+            <summary>¿Qué talla soy?</summary>
+            <p><span class="pendiente">[AGREGAR GUÍA DE TALLAS: cómo medir la mano y tabla por modelo]</span></p>
+          </details>
+          <details>
+            <summary>¿Hacen envíos a todo México?</summary>
+            <p><span class="pendiente">[CONFIRMAR ZONAS, COSTO Y TIEMPO DE ENVÍO]</span></p>
+          </details>
+          <details>
+            <summary>¿Cómo puedo pagar?</summary>
+            <p><span class="pendiente">[FORMAS DE PAGO: transferencia, tarjeta, efectivo, etc.]</span></p>
+          </details>
+          <details>
+            <summary>¿Tienen guantes para niños?</summary>
+            <p>También hacemos guantes para porteros infantiles. <span class="pendiente">[CONFIRMAR MODELOS Y TALLAS]</span></p>
+          </details>
+          <details>
+            <summary>¿Puedo recogerlos en persona en CDMX?</summary>
+            <p><span class="pendiente">[CONFIRMAR SI HAY ENTREGAS O PUNTO DE VENTA]</span></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. CTA FINAL -->
+    <section class="cta-final">
+      <div class="wrap cta-final__in">
+        <h2>¿Listo para que el rival se quede con el grito atorado?</h2>
+        <a href="https://ig.me/m/zarragagoalkeeper" target="_blank" rel="noopener" class="btn btn--dark">Pedir mis ZG</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div>
+        <img src="img/logo-completo-claro.png" alt="Zárraga Goalkeeper" width="292" height="50" class="footer__logo">
+        <p>Marca mexicana de guantes de portero, con látex de calidad profesional y algo más…</p>
+        <p class="footer__meta">Ciudad de México · Desde 2023</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <a href="#guantes">Guantes</a>
+        <a href="#somos-zg">Somos ZG</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <nav aria-label="Redes sociales">
+        <a href="https://www.instagram.com/zarragagoalkeeper/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@zarragagoalkeeper" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.facebook.com/zarraga.goalkeeper/" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+    </div>
+    <p class="footer__legal wrap">© 2026 Zárraga Goalkeeper · Somos ZG, ahogando la celebración del rival.</p>
+  </footer>
+
+</body>
+</html>
